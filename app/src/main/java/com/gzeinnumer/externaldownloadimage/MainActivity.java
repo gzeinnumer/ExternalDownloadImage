@@ -32,8 +32,8 @@ public class MainActivity extends AppCompatActivity{
 
         //pilih 1 atau 2
         //1. jika isNew true maka file lama akan dihapus dan diganti dengan yang baru
-        FunctionGlobalFile.initFileImage(imgUrl, "file name", img, true);
+        FunctionGlobalFile.initFileImage(imgUrl, "file name.jpg", img, true);
         //2. jika isNew false maka akan otomatis load file dan disimpan
-        FunctionGlobalFile.initFileImage(imgUrl, "file name", img, false);
+        FunctionGlobalFile.initFileImage(imgUrl, "file name.jpg", img, false);
     }
 }
